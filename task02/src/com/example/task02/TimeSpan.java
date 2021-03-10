@@ -28,4 +28,28 @@ public class TimeSpan {
         return String.format("%d:%d:%d", hours, minutes, seconds);
     }
 
+    public int getSeconds() {
+        return seconds;
+    }
+
+    public void setSeconds() {
+        this.seconds = seconds;
+    }
+
+    public  int getMinutes() {
+        return minutes;
+    }
+
+    public void setMinutes() {
+        this.minutes = minutes;
+    }
+
+    public int getHours() {
+        return hours;
+    }
+
+    public void setHours() {
+        this.hours = hours;
+    }
+
 }
